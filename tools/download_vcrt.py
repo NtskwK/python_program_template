@@ -16,3 +16,4 @@ from urllib import request
 
 print("开始下载vc++ runtime 14...")
 request.urlretrieve("https://aka.ms/vs/14/release/vc_redist.x64.exe", "dist/vc_redist.x64.exe")
+print("vc++ runtime 14下载完成。")
